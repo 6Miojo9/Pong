@@ -3,4 +3,4 @@
 #include <vector>
 #include <string>
 
-std::vector<sf::Texture> animator(const std::string& caminhoBase, int quantidade);
+std::vector<sf::Texture> animator(const std::string& base_path, int amount);

@@ -2,8 +2,8 @@
 #include <iostream>
 #include "Animator.hpp"
 
-Entity::Entity(const std::string& caminhoTextura, float velocidade) : speed(velocidade) {
-	texture = animator(caminhoTextura, 2);
+Entity::Entity(const std::string& base_path, float speed) : speed(speed) {
+	texture = animator(base_path, 2);
     sprite = std::make_unique<sf::Sprite>(texture[0]);
 }
 
