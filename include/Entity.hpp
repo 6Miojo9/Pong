@@ -9,7 +9,7 @@ private:
     float speed;
 
 public:
-    Entity(const std::string& caminhoTextura, float velocidade);
+    Entity(const std::string& base_path, float speed);
 
     void setPosition(float x, float y);
     void move(float dx, float dy);
