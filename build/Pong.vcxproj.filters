@@ -10,6 +10,9 @@
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Animator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
