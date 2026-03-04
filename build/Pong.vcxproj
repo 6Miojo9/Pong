@@ -451,6 +451,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\main.cpp" />
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Game.cpp" />
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Entity.cpp" />
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Ball.cpp" />
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Animator.cpp" />
     <ResourceCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\resources.rc" />
   </ItemGroup>
