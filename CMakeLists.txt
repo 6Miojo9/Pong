@@ -12,7 +12,7 @@ find_package(SFML 3 REQUIRED COMPONENTS Graphics Audio Window)
 include_directories("C:/SFML-3.0.2/include")
 include_directories(include)
 
-add_executable(Pong src/main.cpp src/Game.cpp src/Entity.cpp src/Ball.cpp src/Animator.cpp resources.rc)
+add_executable(Pong src/main.cpp src/Game.cpp src/Entity.cpp src/Ball.cpp src/Animator.cpp src/Collider.cpp resources.rc)
 
 # target_link_options(Pong PRIVATE "/SUBSYSTEM:WINDOWS" "/ENTRY:mainCRTStartup") #Sem CMD
 
