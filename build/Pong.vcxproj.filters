@@ -7,13 +7,22 @@
     <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Entity.cpp">
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Scene\Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Ball.cpp">
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Scene\Playing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Animator.cpp">
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Modules\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Modules\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Modules\Ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Physical.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

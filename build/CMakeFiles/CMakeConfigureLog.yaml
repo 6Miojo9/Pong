@@ -37,6 +37,7 @@ events:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -76,6 +77,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -92,7 +94,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-      Compila├º├úo de 04/03/2026 18:09:37 iniciada.
+      Compila├º├úo de 13/03/2026 02:40:02 iniciada.
       
       Projeto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -121,7 +123,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.09
+      Tempo Decorrido 00:00:00.80
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -156,6 +158,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -176,6 +179,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
@@ -183,6 +187,7 @@ events:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -222,6 +227,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -247,6 +253,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -267,6 +274,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -277,6 +285,9 @@ events:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/lld-link"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/lld-link.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/lld-link.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/lld-link"
@@ -337,11 +348,15 @@ events:
       - "C:/tools/jdk-22/bin/lld-link.com"
       - "C:/tools/jdk-22/bin/lld-link.exe"
       - "C:/tools/jdk-22/bin/lld-link"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -381,6 +396,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -404,6 +420,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -424,6 +441,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
@@ -431,6 +449,7 @@ events:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -470,6 +489,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -493,6 +513,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -513,6 +534,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
@@ -523,6 +545,9 @@ events:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/mt.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/mt.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/mt"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/mt.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/mt.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/mt"
@@ -583,11 +608,15 @@ events:
       - "C:/tools/jdk-22/bin/mt.com"
       - "C:/tools/jdk-22/bin/mt.exe"
       - "C:/tools/jdk-22/bin/mt"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/mt"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -627,6 +656,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -650,6 +680,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -670,6 +701,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
@@ -677,6 +709,7 @@ events:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -716,6 +749,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -745,6 +779,7 @@ events:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -784,6 +819,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -800,7 +836,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-      Compila├º├úo de 04/03/2026 18:09:39 iniciada.
+      Compila├º├úo de 13/03/2026 02:40:03 iniciada.
       
       Projeto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -829,7 +865,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:00.82
+      Tempo Decorrido 00:00:00.78
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -864,6 +900,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -884,6 +921,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -894,6 +932,9 @@ events:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/lld-link"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/lld-link.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/lld-link.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/lld-link"
@@ -954,11 +995,15 @@ events:
       - "C:/tools/jdk-22/bin/lld-link.com"
       - "C:/tools/jdk-22/bin/lld-link.exe"
       - "C:/tools/jdk-22/bin/lld-link"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -998,6 +1043,7 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1023,6 +1069,7 @@ events:
     candidate_directories:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1043,6 +1090,7 @@ events:
       - "C:/Users/gadye/AppData/Local/nvm/"
       - "C:/nvm4w/nodejs/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1052,9 +1100,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/MeuJogoSFML/bin/"
-      - "C:/Program Files (x86)/MeuJogoSFML/sbin/"
-      - "C:/Program Files (x86)/MeuJogoSFML/"
+      - "C:/Program Files (x86)/Pong/bin/"
+      - "C:/Program Files (x86)/Pong/sbin/"
+      - "C:/Program Files (x86)/Pong/"
     searched_directories:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
@@ -1062,6 +1110,9 @@ events:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/rc"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/rc.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/rc.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/rc"
@@ -1122,6 +1173,9 @@ events:
       - "C:/tools/jdk-22/bin/rc.com"
       - "C:/tools/jdk-22/bin/rc.exe"
       - "C:/tools/jdk-22/bin/rc"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1149,20 +1203,21 @@ events:
       - "C:/Program Files/CMake/rc.com"
       - "C:/Program Files/CMake/rc.exe"
       - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/MeuJogoSFML/bin/rc.com"
-      - "C:/Program Files (x86)/MeuJogoSFML/bin/rc.exe"
-      - "C:/Program Files (x86)/MeuJogoSFML/bin/rc"
-      - "C:/Program Files (x86)/MeuJogoSFML/sbin/rc.com"
-      - "C:/Program Files (x86)/MeuJogoSFML/sbin/rc.exe"
-      - "C:/Program Files (x86)/MeuJogoSFML/sbin/rc"
-      - "C:/Program Files (x86)/MeuJogoSFML/rc.com"
-      - "C:/Program Files (x86)/MeuJogoSFML/rc.exe"
-      - "C:/Program Files (x86)/MeuJogoSFML/rc"
+      - "C:/Program Files (x86)/Pong/bin/rc.com"
+      - "C:/Program Files (x86)/Pong/bin/rc.exe"
+      - "C:/Program Files (x86)/Pong/bin/rc"
+      - "C:/Program Files (x86)/Pong/sbin/rc.com"
+      - "C:/Program Files (x86)/Pong/sbin/rc.exe"
+      - "C:/Program Files (x86)/Pong/sbin/rc"
+      - "C:/Program Files (x86)/Pong/rc.com"
+      - "C:/Program Files (x86)/Pong/rc.exe"
+      - "C:/Program Files (x86)/Pong/rc"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1202,12 +1257,13 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MeuJogoSFML"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pong"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/MeuJogoSFML"
+        - "C:/Program Files (x86)/Pong"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1217,8 +1273,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-dhft2v"
-      binary: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-dhft2v"
+      source: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-uk4sue"
+      binary: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-uk4sue"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1227,40 +1283,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-dhft2v'
+        Change Dir: 'C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-uk4sue'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05d74.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ed78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-        Compila├º├úo de 04/03/2026 18:09:40 iniciada.
+        Compila├º├úo de 13/03/2026 02:40:04 iniciada.
         
-        Projeto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhft2v\\cmTC_05d74.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uk4sue\\cmTC_0ed78.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_05d74.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_0ed78.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhft2v\\Debug\\".
-          Criando o diret├│rio "cmTC_05d74.dir\\Debug\\cmTC_05d74.tlog\\".
+          Criando o diret├│rio "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uk4sue\\Debug\\".
+          Criando o diret├│rio "cmTC_0ed78.dir\\Debug\\cmTC_0ed78.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_05d74.dir\\Debug\\cmTC_05d74.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_05d74.dir\\Debug\\cmTC_05d74.tlog\\unsuccessfulbuild".
+          Criando "cmTC_0ed78.dir\\Debug\\cmTC_0ed78.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0ed78.dir\\Debug\\cmTC_0ed78.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_05d74.dir\\Debug\\\\" /Fd"cmTC_05d74.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0ed78.dir\\Debug\\\\" /Fd"cmTC_0ed78.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35220 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_05d74.dir\\Debug\\\\" /Fd"cmTC_05d74.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0ed78.dir\\Debug\\\\" /Fd"cmTC_0ed78.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhft2v\\Debug\\cmTC_05d74.exe" /INCREMENTAL /ILK:"cmTC_05d74.dir\\Debug\\cmTC_05d74.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-dhft2v/Debug/cmTC_05d74.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-dhft2v/Debug/cmTC_05d74.lib" /MACHINE:X64  /machine:x64 cmTC_05d74.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_05d74.vcxproj -> C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhft2v\\Debug\\cmTC_05d74.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uk4sue\\Debug\\cmTC_0ed78.exe" /INCREMENTAL /ILK:"cmTC_0ed78.dir\\Debug\\cmTC_0ed78.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-uk4sue/Debug/cmTC_0ed78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-uk4sue/Debug/cmTC_0ed78.lib" /MACHINE:X64  /machine:x64 cmTC_0ed78.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0ed78.vcxproj -> C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uk4sue\\Debug\\cmTC_0ed78.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_05d74.dir\\Debug\\cmTC_05d74.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_05d74.dir\\Debug\\cmTC_05d74.tlog\\cmTC_05d74.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhft2v\\cmTC_05d74.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_0ed78.dir\\Debug\\cmTC_0ed78.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_0ed78.dir\\Debug\\cmTC_0ed78.tlog\\cmTC_0ed78.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uk4sue\\cmTC_0ed78.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:00.83
+        Tempo Decorrido 00:00:00.75
         
       exitCode: 0
   -
@@ -1300,8 +1356,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-gqpgwx"
-      binary: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-gqpgwx"
+      source: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-n7j0hs"
+      binary: "C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-n7j0hs"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1311,40 +1367,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-gqpgwx'
+        Change Dir: 'C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-n7j0hs'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_461cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_17dbc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-        Compila├º├úo de 04/03/2026 18:09:41 iniciada.
+        Compila├º├úo de 13/03/2026 02:40:06 iniciada.
         
-        Projeto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqpgwx\\cmTC_461cc.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7j0hs\\cmTC_17dbc.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_461cc.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_17dbc.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqpgwx\\Debug\\".
-          Criando o diret├│rio "cmTC_461cc.dir\\Debug\\cmTC_461cc.tlog\\".
+          Criando o diret├│rio "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7j0hs\\Debug\\".
+          Criando o diret├│rio "cmTC_17dbc.dir\\Debug\\cmTC_17dbc.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_461cc.dir\\Debug\\cmTC_461cc.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_461cc.dir\\Debug\\cmTC_461cc.tlog\\unsuccessfulbuild".
+          Criando "cmTC_17dbc.dir\\Debug\\cmTC_17dbc.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_17dbc.dir\\Debug\\cmTC_17dbc.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_461cc.dir\\Debug\\\\" /Fd"cmTC_461cc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_17dbc.dir\\Debug\\\\" /Fd"cmTC_17dbc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35220 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_461cc.dir\\Debug\\\\" /Fd"cmTC_461cc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_17dbc.dir\\Debug\\\\" /Fd"cmTC_17dbc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqpgwx\\Debug\\cmTC_461cc.exe" /INCREMENTAL /ILK:"cmTC_461cc.dir\\Debug\\cmTC_461cc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-gqpgwx/Debug/cmTC_461cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-gqpgwx/Debug/cmTC_461cc.lib" /MACHINE:X64  /machine:x64 cmTC_461cc.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_461cc.vcxproj -> C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqpgwx\\Debug\\cmTC_461cc.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7j0hs\\Debug\\cmTC_17dbc.exe" /INCREMENTAL /ILK:"cmTC_17dbc.dir\\Debug\\cmTC_17dbc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-n7j0hs/Debug/cmTC_17dbc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/gadye/Documents/projetos/C++/game/Pong/build/CMakeFiles/CMakeScratch/TryCompile-n7j0hs/Debug/cmTC_17dbc.lib" /MACHINE:X64  /machine:x64 cmTC_17dbc.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_17dbc.vcxproj -> C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7j0hs\\Debug\\cmTC_17dbc.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_461cc.dir\\Debug\\cmTC_461cc.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_461cc.dir\\Debug\\cmTC_461cc.tlog\\cmTC_461cc.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqpgwx\\cmTC_461cc.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_17dbc.dir\\Debug\\cmTC_17dbc.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_17dbc.dir\\Debug\\cmTC_17dbc.tlog\\cmTC_17dbc.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gadye\\Documents\\projetos\\C++\\game\\Pong\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7j0hs\\cmTC_17dbc.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:00.82
+        Tempo Decorrido 00:00:00.86
         
       exitCode: 0
   -
@@ -1400,6 +1456,9 @@ events:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML/doc/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/doc/SFML/"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/SFML/doc/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/share/doc/SFML/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/SFML/doc/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/share/doc/SFML/"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/"
@@ -1460,6 +1519,9 @@ events:
       - "C:/tools/jdk-22/bin/SFML/doc/"
       - "C:/tools/jdk-22/bin/share/doc/SFML/"
       - "C:/tools/jdk-22/bin/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/include/SFML/doc/"
       - "C:/Program Files/include/share/doc/SFML/"
       - "C:/Program Files/include/"
@@ -1478,12 +1540,12 @@ events:
       - "C:/Program Files/CMake/SFML/doc/"
       - "C:/Program Files/CMake/share/doc/SFML/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/MeuJogoSFML/include/SFML/doc/"
-      - "C:/Program Files (x86)/MeuJogoSFML/include/share/doc/SFML/"
-      - "C:/Program Files (x86)/MeuJogoSFML/include/"
-      - "C:/Program Files (x86)/MeuJogoSFML/SFML/doc/"
-      - "C:/Program Files (x86)/MeuJogoSFML/share/doc/SFML/"
-      - "C:/Program Files (x86)/MeuJogoSFML/"
+      - "C:/Program Files (x86)/Pong/include/SFML/doc/"
+      - "C:/Program Files (x86)/Pong/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/Pong/include/"
+      - "C:/Program Files (x86)/Pong/SFML/doc/"
+      - "C:/Program Files (x86)/Pong/share/doc/SFML/"
+      - "C:/Program Files (x86)/Pong/"
       - "C:/SFML-3.0.2/SFML/doc/"
       - "C:/SFML-3.0.2/share/doc/SFML/"
       - "C:/SFML-3.0.2/"
@@ -1518,6 +1580,9 @@ events:
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML/doc/SFML.tag"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/doc/SFML/SFML.tag"
       - "C:/Users/gadye/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML.tag"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/SFML/doc/SFML.tag"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/share/doc/SFML/SFML.tag"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/SFML.tag"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/SFML/doc/SFML.tag"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/share/doc/SFML/SFML.tag"
       - "C:/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot/bin/SFML.tag"
@@ -1578,6 +1643,9 @@ events:
       - "C:/tools/jdk-22/bin/SFML/doc/SFML.tag"
       - "C:/tools/jdk-22/bin/share/doc/SFML/SFML.tag"
       - "C:/tools/jdk-22/bin/SFML.tag"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/Users/gadye/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
       - "C:/Program Files/include/SFML/doc/SFML.tag"
       - "C:/Program Files/include/share/doc/SFML/SFML.tag"
       - "C:/Program Files/include/SFML.tag"
@@ -1596,12 +1664,12 @@ events:
       - "C:/Program Files/CMake/SFML/doc/SFML.tag"
       - "C:/Program Files/CMake/share/doc/SFML/SFML.tag"
       - "C:/Program Files/CMake/SFML.tag"
-      - "C:/Program Files (x86)/MeuJogoSFML/include/SFML/doc/SFML.tag"
-      - "C:/Program Files (x86)/MeuJogoSFML/include/share/doc/SFML/SFML.tag"
-      - "C:/Program Files (x86)/MeuJogoSFML/include/SFML.tag"
-      - "C:/Program Files (x86)/MeuJogoSFML/SFML/doc/SFML.tag"
-      - "C:/Program Files (x86)/MeuJogoSFML/share/doc/SFML/SFML.tag"
-      - "C:/Program Files (x86)/MeuJogoSFML/SFML.tag"
+      - "C:/Program Files (x86)/Pong/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/Pong/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/Pong/include/SFML.tag"
+      - "C:/Program Files (x86)/Pong/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/Pong/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/Pong/SFML.tag"
       - "C:/SFML-3.0.2/SFML/doc/SFML.tag"
       - "C:/SFML-3.0.2/share/doc/SFML/SFML.tag"
       - "C:/SFML-3.0.2/SFML.tag"
@@ -1634,6 +1702,7 @@ events:
       ENV{PATH}:
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\gadye\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.9.10-hotspot\\bin"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1673,10 +1742,11 @@ events:
         - "C:\\Users\\gadye\\AppData\\Local\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "C:\\tools\\jdk-22\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MeuJogoSFML"
+        - "C:\\Users\\gadye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pong"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/MeuJogoSFML"
+        - "C:/Program Files (x86)/Pong"
 ...

@@ -1,5 +1,8 @@
 C:\Users\gadye\Documents\projetos\C++\game\Pong\src\main.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\main.obj
 C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Game.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Game.obj
-C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Entity.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Entity.obj
-C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Ball.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Ball.obj
-C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Animator.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Animator.obj
+C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Scene\Menu.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Menu.obj
+C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Scene\Playing.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Playing.obj
+C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Modules\Button.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Button.obj
+C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Modules\Entity.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Entity.obj
+C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Modules\Ball.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Ball.obj
+C:\Users\gadye\Documents\projetos\C++\game\Pong\src\Physical.cpp;C:\Users\gadye\Documents\projetos\C++\game\Pong\build\Pong.dir\Release\Physical.obj
