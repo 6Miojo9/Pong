@@ -15,7 +15,7 @@ Menu::Menu(sf::RenderWindow& window) {
     );
 }
 
-void Menu::handleInput(sf::RenderWindow& window, GameState& state) {
+void Menu::handleInput(sf::RenderWindow& window, GameState& state, std::function<void()> func) {
     playButton->onHover(window);
     exitButton->onHover(window);
     
@@ -23,6 +23,7 @@ void Menu::handleInput(sf::RenderWindow& window, GameState& state) {
         sf::Vector2f mouseWorld = window.mapPixelToCoords(sf::Mouse::getPosition(window));
 
         if (playButton->getBounds().contains(mouseWorld)) {
+            func();
             state = GameState::Playing;
         }
         if (exitButton->getBounds().contains(mouseWorld)) {

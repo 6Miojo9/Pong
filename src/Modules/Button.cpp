@@ -4,10 +4,10 @@ Button::Button(const std::string& base_path, const std::string& text) {
     textures = animator(base_path, 3);
     sprite = std::make_unique<sf::Sprite>(textures[0]);
     sprite->setTexture(textures[0]);
-    if (!font.openFromFile("./assets/fonts/GameFont.ttf")) {
+    if (!font.openFromFile("./assets/fonts/GameFont.otf")) {
         std::cerr << "Error loading font\n";
     }
-    label = std::make_unique<sf::Text>(font, sf::String(text), 24u);
+    label = std::make_unique<sf::Text>(font, sf::String(text), 30u);
     label->setFillColor(sf::Color::White);
 }
 
@@ -15,7 +15,7 @@ void Button::setPosition(float x, float y) {
 	sprite->setPosition(sf::Vector2f(x, y));
     sf::FloatRect bounds_label = label->getGlobalBounds();
     sf::FloatRect bounds_sprite = sprite->getGlobalBounds();
-    label->setPosition(sf::Vector2f(x + ((bounds_sprite.size.x - bounds_label.size.x) / 2), y + ((bounds_sprite.size.y - bounds_label.size.y) / 2) - 5));
+    label->setPosition(sf::Vector2f(x + ((bounds_sprite.size.x - bounds_label.size.x) / 2), y + ((bounds_sprite.size.y - bounds_label.size.y) / 2)));
 }
 
 void Button::setTexture(int index){
